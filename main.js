@@ -2,15 +2,13 @@ const {app, BrowserWindow} = require("electron");
 
 const Window = () => {
     const win = new BrowserWindow({
-        show: false
+        height: 600,
+        weight: 900,
+        autoHideMenuBar: true
     })
+    win.loadURL("https://lqdoj.edu.vn")
     win.setIcon("icon.ico")
-    win.setBackgroundColor("#202225")
-    win.setMenu(null)
     win.setTitle("Home - LQDOJ: Le Quy Don Online Judge")
-    win.loadFile("index.html")
-    win.maximize()
-    win.show()
 }
 
 app.whenReady().then(() => {
