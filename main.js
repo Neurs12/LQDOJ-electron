@@ -8,7 +8,7 @@ const Window = () => {
     win.setBackgroundColor("#202225")
     win.setMenu(null)
     win.setTitle("Home - LQDOJ: Le Quy Don Online Judge")
-    win.loadFile("UI/index.html")
+    win.loadFile("index.html")
     win.maximize()
     win.show()
 }
