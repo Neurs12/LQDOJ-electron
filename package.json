@@ -1,0 +1,15 @@
+{
+  "name": "lqdoj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Neurs12",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.1.0",
+    "electron-packager": "^15.5.1"
+  }
+}
